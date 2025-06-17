@@ -1,23 +1,25 @@
-/* Common styles for all odd numbered elements (all p tags here) */
-.odd {
-  background-color: rgb(255, 182, 193); /* light pink */
-  font-family: Verdana, 'DejaVu Sans', sans-serif;
-}
-
-/* The 2nd element - unique ID */
-#two {
-  color: rgb(0, 0, 255); /* blue text */
-  font-size: 36px;
-}
-
-/* The 3rd element - multiple classes: odd + cooler */
-.cooler {
-  font-size: 24px;
-}
-
-/* The 4th element - unique ID */
-#four {
-  background-color: rgb(144, 238, 144); /* light green */
-  font-size: 24px;
-  font-weight: bold;
-}
+    body { 
+      max-width: 600px; 
+      margin: 0 auto; 
+    } 
+     
+    .one { 
+      background: pink; 
+      border: 3px solid blue; 
+      padding: 32px; 
+      margin: 12px; 
+    } 
+     
+    .two { 
+      background: lightblue; 
+      border: 3px solid purple; 
+      margin-bottom: 48px; 
+    } 
+     
+    .three { 
+      background: peachpuff; 
+      border: 3px solid brown; 
+      width: 200px; 
+      padding: 32px; 
+      margin-left: auto; 
+    }
