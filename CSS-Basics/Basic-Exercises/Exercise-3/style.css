@@ -1,0 +1,16 @@
+/* Styles communs aux deux boutons */
+.black-btn,
+.yellow-btn {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+/* Styles uniques */
+.black-btn {
+  background-color: black;
+  color: white;
+}
+
+.yellow-btn {
+  background-color: yellow;
+}
