@@ -1,0 +1,5 @@
+html cookies Exercise solved
+// image
+./images/cookies.png
+// description
+This exercise involves creating a simple HTML page that uses cookies to store user preferences. The goal is to demonstrate how cookies can be set, retrieved, and used to personalize the user experience on a webpage.
