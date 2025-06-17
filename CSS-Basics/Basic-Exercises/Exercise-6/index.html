@@ -4,15 +4,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Class and ID Selectors</title>
+  <title>Fix the Cascade</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <p class="odd">Number 1 - I'm a class!</p>
-  <div id="two">Number 2 - I'm one ID.</div>
-  <p class="odd cooler">Number 3 - I'm a class, but cooler!</p>
-  <div id="four">Number 4 - I'm another ID.</div>
-  <p class="odd">Number 5 - I'm a class!</p>
-</body>
+  <p class="para">I'm just a paragraph with red text!</p>
+  <p class="para small-para">I'm a smaller paragraph, also with red text!</p>
 
+  <button id="confirm-button" class="button confirm">Confirm</button>
+  <button id="cancel-button" class="button cancel">Cancel</button>
+
+  <div class="text">I'm a div with green text!</div>
+  <div class="text">I'm a div with green text and a child div!
+    <div class="text child">I'm a smaller child div with red text.</div>
+  </div>
+</body>
 </html>

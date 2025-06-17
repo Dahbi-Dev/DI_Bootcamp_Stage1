@@ -1,23 +1,41 @@
-/* Common styles for all odd numbered elements (all p tags here) */
-.odd {
-  background-color: rgb(255, 182, 193); /* light pink */
-  font-family: Verdana, 'DejaVu Sans', sans-serif;
+/* Keep this first */
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
 }
 
-/* The 2nd element - unique ID */
-#two {
-  color: rgb(0, 0, 255); /* blue text */
-  font-size: 36px;
-}
-
-/* The 3rd element - multiple classes: odd + cooler */
-.cooler {
-  font-size: 24px;
-}
-
-/* The 4th element - unique ID */
-#four {
-  background-color: rgb(144, 238, 144); /* light green */
-  font-size: 24px;
+/* This should come after .button to override */
+.confirm {
+  background: green;
+  color: white;
   font-weight: bold;
+}
+
+/* Paragraphs */
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+/* Small para should be less large */
+.small-para {
+  font-size: 14px;
+}
+
+/* Paragraph should be bigger */
+.para {
+  font-size: 22px;
+}
+
+/* This fixes the cascade for child text */
+div.text {
+  color: green;
+  font-size: 22px;
+}
+
+/* The child should override its parent’s color and size */
+.text .child {
+  color: red;
+  font-size: 14px;
 }
